@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Actividad Bootstrap</title>
+    
+    <!-- css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container">
+    <form class="row mt-3 g-3 was-validated" novalidate action="https://www.google.com" method="post">
+    
+        <div class="col-3">
+                <label for="nameid" class="form-label">Codigo</label>
+                <input type="text" class="form-control" id="nameid" required>
+                <div class="valid-feedback">
+            </div>
+            <div>
+                <div class="valid-feedback">
+                    Completar campo
+            </div>
+            <div>
+                <label for="nameid" class="form-label">Descripcion:</label>
+                <input type="text" class="form-control" id="nameid" required>
+                <div class="invalid-feedback">
+                    ¡Llenar campo!
+                </div>
+                </div>
+                <div class="invalid-feedback">
+                    <div>
+                    ¡Todo bien!
+                </div>
+            </div>
+            <div>
+                <label for="nameid" class="form-label">Codigo de barra:</label>
+                <input type="text" class="form-control" id="nameid" required>
+                <div class="valid-feedback">
+                    ¡Todo bien!
+            </div>
+            <div>
+                <label for="nameid" class="form-label">Precio unitario:</label>
+                <input type="text" class="form-control" id="nameid" required>
+                <div class="valid-feedback">
+                    ¡Todo bien!
+                </div>
+           </div>
+            <div>
+                <label for="nameid" class="form-label">Stock:</label>
+                <input type="text" class="form-control" id="nameid" required>
+                <div class="invalid-feedback">
+                    Completar campo
+                </div>
+            </div>
+           <div>
+                <label for="nameid" class="form-label">Proveedor:</label>
+                <input type="text" class="form-control" id="nameid" required>
+                <div class="invalid-feedback">
+                    Completar campo
+                </div>
+           </div>
+
+           <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="terms" required>
+                <label for="terms" class="form-check-label">Activado</label>
+                <div class="invalid-feedback">Check this checkbox to continue.</div>
+            </div>
+
+
+
+        <div class="mb-3">
+            <select class="form-select" required aria-label="select example">
+              <option value="">Categoria</option>
+              <option value="1">Categoria 1</option>
+              <option value="2">Categoria 2</option>
+              <option value="3">Categoria 3</option>
+              <option value="4">Categoria 4</option>
+            </select>
+            <div class="invalid-feedback">Example invalid select feedback</div>
+          </div>
+
+          <input type="submit" class="btn btn-primary" value="Guardar">
+          <button class="btn btn-secondary">Cancelar</button>
+        
+        </form>
+
+<!--JS de bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
